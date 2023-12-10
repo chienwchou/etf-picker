@@ -49,6 +49,8 @@ export default function Home() {
               <img className="max-w-xs p-5 bg-purple-400 rounded-xl" src={example3.src} alt="example3.png"></img>
               <p className="text-center py-3">Risk-Tolerant portfolio</p>
             </div>
+          </div>
+          <div className="etfs-graphs-examples flex justify-around py-12 flex-wrap">
             <div className="">
               <img className="max-w-xs p-5 bg-purple-400 rounded-xl" src={example1.src} alt="example1.png"></img>
               <p className="text-center py-3">Conservative portfolio</p>
@@ -118,6 +120,12 @@ export default function Home() {
             <p className="text-2xl">Sign up today to get more out of the app.</p>
             <button className="py-5 px-10 bg-purple-950 text-white my-10 rounded-full shadow-lg shadow-indigo-500/50">Sign up</button>
           </div>
+        </section>
+        <section className="flex flex-col p-10">
+          <p>Commissions, fees and expenses may be associated with investment funds. Read a fund’s prospectus or offering memorandum and speak to an advisor before investing.  Funds are not guaranteed, their values change frequently and investors may experience a gain or loss.  Past performance may not be repeated.
+            Read our privacy policy.  By using or logging in to this website, you consent to the use of cookies as described in our privacy policy.
+            Mutual funds and ETFs displayed are only qualified for sale in the provinces and territories of Canada and United.
+            88747-v2023619</p>
         </section>
       </main>
       <footer className="flex flex-col items-center">
