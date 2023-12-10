@@ -6,7 +6,7 @@ import calculator from "./assets/main-page-calculator.png"
 export default function Home() {
   return (
     <>
-      <header className="lg:px-8 py-6 max-w-7xl">
+      <header className="lg:px-8 py-6">
         <nav className="flex items-center">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -24,6 +24,7 @@ export default function Home() {
             <a href="#" className="text-sm font-semibold">Calculator</a>
             <a href="#" className="text-sm font-semibold">Advanced Features</a>
             <a href="#" className="text-sm font-semibold">App Info</a>
+            <a href="#" className="text-sm font-semibold">How ETF works</a>
           </div>
           <div className="flex justify-end lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5 font-semibold">Log in</a>
@@ -121,15 +122,84 @@ export default function Home() {
             <button className="py-5 px-10 bg-purple-950 text-white my-10 rounded-full shadow-lg shadow-indigo-500/50">Sign up</button>
           </div>
         </section>
-        <section className="flex flex-col p-10">
+        <section className="flex flex-col py-5 px-10">
           <p>Commissions, fees and expenses may be associated with investment funds. Read a fund’s prospectus or offering memorandum and speak to an advisor before investing.  Funds are not guaranteed, their values change frequently and investors may experience a gain or loss.  Past performance may not be repeated.
             Read our privacy policy.  By using or logging in to this website, you consent to the use of cookies as described in our privacy policy.
             Mutual funds and ETFs displayed are only qualified for sale in the provinces and territories of Canada and United.
             88747-v2023619</p>
         </section>
       </main>
-      <footer className="flex flex-col items-center">
-        footer
+      <footer className="flex flex-row p-8 justify-between bg-purple-200">
+        <div class="p-3">
+          <h4 className="font-semibold py-2">Product</h4>
+          <ul className="">
+            <li className="py-1">Pricing</li>
+            <li className="py-1">SDK</li>
+            <li className="py-1">Screen Recorder</li>
+            <li className="py-1">Chrome Screen Recorder</li>
+            <li className="py-1">Mac Screen Recorder</li>
+            <li className="py-1">Windows Screen Recorder</li>
+            <li className="py-1">iOS Screen Recorder</li>
+            <li className="py-1">Android Screen Recorder</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h4 className="font-semibold py-2">Use Cases</h4>
+          <ul className="">
+            <li className="py-1">Team Alignment</li>
+            <li className="py-1">Sales</li>
+            <li className="py-1">Engineering</li>
+            <li className="py-1">Design</li>
+            <li className="py-1">Marketing</li>
+            <li className="py-1">Product Management</li>
+            <li className="py-1">Support</li>
+            <li className="py-1">Education</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h4 className="font-semibold py-2">For Business</h4>
+          <ul className="">
+            <li className="py-1">AI</li>
+            <li className="py-1">Enterprise</li>
+            <li className="py-1">HQ</li>
+            <li className="py-1">Customers</li>
+            <li className="py-1">Security</li>
+            <li className="py-1">Video Hosting</li>
+            <li className="py-1">Video Library</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h4 className="font-semibold py-2">Downloads</h4>
+          <ul className="">
+            <li className="py-1">Desktop App</li>
+            <li className="py-1">Chrome Extension</li>
+            <li className="py-1">Mobile Apps</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h4 className="font-semibold py-2">Resources</h4>
+          <ul className="">
+            <li className="py-1">Blog</li>
+            <li className="py-1">Help & Support</li>
+            <li className="py-1">Community</li>
+            <li className="py-1">eBooks</li>
+            <li className="py-1">Status</li>
+            <li className="py-1">What's New</li>
+            <li className="py-1">Webcam Mic Test</li>
+            <li className="py-1">Webcam Recorder</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h4 className="font-semibold py-2">Company</h4>
+          <ul className="">
+            <li className="py-1">About Us</li>
+            <li className="py-1">Diversity, Equity & Inclusion</li>
+            <li className="py-1">Careers</li>
+            <li className="py-1">Newsroom</li>
+            <li className="py-1">Media Kit</li>
+            <li className="py-1">Sitemap</li>
+          </ul>
+        </div>
       </footer>
     </>
   )
